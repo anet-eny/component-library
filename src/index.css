@@ -1,16 +1,47 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
     display: flex;
     justify-content: center;
+    font-family: "Inter", serif;
+    background-color: #E5E7EB;
+    text-align: center;
 }
 
 h1, h2, h3 {
     font-family: "Permanent Marker", serif;
+    padding: 0.8em;
 }
 
 h3 {
     color: #5E5D5D;
+    text-align: end;
+}
+
+p {
+    font-size: 0.6rem;
+    color: gray;
+}
+
+.badges {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr); 
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px;
+}
+
+.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    padding: 1em 2.6em;
+    margin-top: 0.2em;
+    width: 67px;
+    height: 24px;
+    color: #1F2937;
+    background-color: #F3F4F6;
 }
