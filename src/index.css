@@ -45,6 +45,10 @@ p {
     height: 24px;
 }
 
+.pill {
+    border-radius: 12px;
+}
+
 .gray {
     color: #1F2937;
     background-color: #F3F4F6;
