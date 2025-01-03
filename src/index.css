@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
-h1 {
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3 {
     font-family: "Permanent Marker", serif;
+}
+
+h3 {
+    color: #5E5D5D;
 }
