@@ -108,16 +108,24 @@ p {
     height: 80px;
     background-color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    gap: 1em;
     margin: 0.6em;
     padding: 1em;
+    border-radius: 6px;
 }
 
-.banner > p {
-    font-size: 0.8rem;
-    padding-top: 0.8em;
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
 }
+
+.banner-text > p {
+    font-size: 0.8rem;
+}
+
+
 
 
 

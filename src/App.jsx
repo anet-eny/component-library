@@ -42,22 +42,10 @@ export default function App() {
                 </div>
                 <div className="banners">
                     <h3>Multi line</h3>
-                    <Banner status="success" >
-                        <p><strong>Congratulations!</strong></p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
-                    </Banner>
-                    <Banner status="warning" >
-                        <p><strong>Attention</strong></p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
-                    </Banner>
-                    <Banner status="error" >
-                        <p><strong>There is a problem with your application</strong></p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
-                    </Banner>
-                    <Banner status="neutral" >
-                        <p><strong>Update available</strong></p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
-                    </Banner>
+                    <Banner status="success" title="Congratulations!" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam." />
+                    <Banner status="warning" title="Attention" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum." />
+                    <Banner status="error" title="There is a problem with your application" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum." />
+                    <Banner status="neutral" title="Update available" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam." />
                     
                 </div>
                 <div className="banners">
