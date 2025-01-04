@@ -1,5 +1,6 @@
 import React from "react"
 import Badge from "./components/Badge"
+import Banner from "./components/Banner"
 
 export default function App() {
     return (
@@ -33,15 +34,33 @@ export default function App() {
             <h2>Banners</h2>
             <div className="banners-container">
                 <div className="banners-labels">
+                    <h3></h3>
                     <h3>Success</h3>
                     <h3>Warning</h3>
                     <h3>Error</h3>
                     <h3>Neutral</h3>
                 </div>
-                <div className="banners-multi-line">
+                <div className="banners">
                     <h3>Multi line</h3>
+                    <Banner status="success" >
+                        <p><strong>Congratulations!</strong></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
+                    </Banner>
+                    <Banner status="warning" >
+                        <p><strong>Attention</strong></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
+                    </Banner>
+                    <Banner status="error" >
+                        <p><strong>There is a problem with your application</strong></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
+                    </Banner>
+                    <Banner status="neutral" >
+                        <p><strong>Update available</strong></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
+                    </Banner>
+                    
                 </div>
-                <div className="banners-single-line">
+                <div className="banners">
                     <h3>Single line</h3>
                 </div>
             </div>

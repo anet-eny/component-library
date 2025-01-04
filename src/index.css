@@ -92,3 +92,33 @@ p {
 .banners-container {
     display: flex;
 }
+
+.banners-labels {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.banners > h3 {
+    text-align: start;
+}
+
+.banner {
+    width: 800px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.6em;
+    padding: 1em;
+}
+
+.banner > p {
+    font-size: 0.8rem;
+    padding-top: 0.8em;
+}
+
+
+
+
