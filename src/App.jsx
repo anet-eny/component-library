@@ -45,11 +45,14 @@ export default function App() {
                     <Banner status="success" title="Congratulations!" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam." />
                     <Banner status="warning" title="Attention" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum." />
                     <Banner status="error" title="There is a problem with your application" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum." />
-                    <Banner status="neutral" title="Update available" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam." />
-                    
+                    <Banner status="neutral" title="Update available" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam." /> 
                 </div>
-                <div className="banners">
+                <div className="banners single-line">
                     <h3>Single line</h3>
+                    <Banner status="success" title="Congratulations!" text="" />
+                    <Banner status="warning" title="Attention" text="" />
+                    <Banner status="error" title="There is a problem with your application" text="" />
+                    <Banner status="neutral" title="Update available" text="" /> 
                 </div>
             </div>
         </div>
