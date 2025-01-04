@@ -125,7 +125,57 @@ p {
     font-size: 0.8rem;
 }
 
+.success {
+    color: #34D399;
+    background-color: #ECFDF5;
+}
 
+.success .banner-text > p > strong {
+    color: #065F46;
+}
+
+.success .banner-text > p {
+    color: #047857;
+}
+
+.warning {
+    color: #FBBF24;
+    background-color: #FFFBEB;
+}
+
+.warning .banner-text > p > strong {
+    color: #92400E;
+}
+
+.warning .banner-text > p {
+    color: #B45309;
+}
+
+.error {
+    color: #F87171;
+    background-color: #FEF2F2;
+}
+
+.error .banner-text > p > strong {
+    color: #92400E;
+}
+
+.error .banner-text > p {
+    color: #B45309;
+}
+
+.neutral {
+    color: #60A5FA;
+    background-color: #EFF6FF;
+}
+
+.neutral .banner-text > p > strong {
+    color: #1E40AF;
+}
+
+.neutral .banner-text > p {
+    color: #1C51B9;
+}
 
 
 
