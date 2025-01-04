@@ -88,3 +88,7 @@ p {
     color: #9D174D;
     background-color: #FCE7F3;
 }
+
+.banners-container {
+    display: flex;
+}

@@ -30,6 +30,21 @@ export default function App() {
                     <Badge variant="pill" color="pink">Badge</Badge>
                 </div>
             </div>
+            <h2>Banners</h2>
+            <div className="banners-container">
+                <div className="banners-labels">
+                    <h3>Success</h3>
+                    <h3>Warning</h3>
+                    <h3>Error</h3>
+                    <h3>Neutral</h3>
+                </div>
+                <div className="banners-multi-line">
+                    <h3>Multi line</h3>
+                </div>
+                <div className="banners-single-line">
+                    <h3>Single line</h3>
+                </div>
+            </div>
         </div>
         
     )
