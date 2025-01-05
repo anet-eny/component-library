@@ -60,7 +60,7 @@ export default function App() {
             <h2>Cards</h2>
             <div className="cards-container">
                 <Card icon={<IoCloudUploadOutline />} title="Easy Deployment" text="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."/>
-                <Card icon={<IoCloudUploadOutline />} title="Easy Deployment" text="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."/>
+                <Card hover={true} icon={<IoCloudUploadOutline />} title="Easy Deployment" text="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."/>
             </div>
         </div>
         
