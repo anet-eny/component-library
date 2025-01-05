@@ -30,6 +30,8 @@ p {
     text-align: start;
 }
 
+/* Badges */
+
 .badges {
     display: grid;
     grid-template-rows: repeat(1, 1fr); 
@@ -91,6 +93,8 @@ p {
     color: #9D174D;
     background-color: #FCE7F3;
 }
+
+/* Banners */
 
 .banners-container {
     display: flex;
@@ -191,6 +195,57 @@ p {
 .neutral .banner-text > p {
     color: #1C51B9;
 }
+
+/* Cards */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.card-content {
+    width: 384px;
+    height: 208px;
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3em;
+    padding: 2em 1.6em;
+    border-radius: 8px;
+}
+
+.card-content > h4 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 1em;
+}
+
+.card-content > p {
+    font-size: 1em;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+}
+
+.card-icon {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    color: white;
+    background-color: #3F75FE;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
 
 
 

@@ -1,6 +1,8 @@
 import React from "react"
 import Badge from "./components/Badge"
 import Banner from "./components/Banner"
+import Card from "./components/Card"
+import { IoCloudUploadOutline } from "react-icons/io5"
 
 export default function App() {
     return (
@@ -54,6 +56,11 @@ export default function App() {
                     <Banner status="error" title="There is a problem with your application" text="" />
                     <Banner status="neutral" title="Update available" text="" /> 
                 </div>
+            </div>
+            <h2>Cards</h2>
+            <div className="cards-container">
+                <Card icon={<IoCloudUploadOutline />} title="Easy Deployment" text="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."/>
+                <Card icon={<IoCloudUploadOutline />} title="Easy Deployment" text="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."/>
             </div>
         </div>
         
