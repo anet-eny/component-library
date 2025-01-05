@@ -8,8 +8,8 @@ import { TbFileNeutral } from "react-icons/tb"
 
 
 export default function Banner(props) {
-    const multiLineClass = props.text ? "multi-line" : null
-    const allClasses = classNames(props.status, multiLineClass, "banner")
+    const bannerType = props.text ? "multiline" : "singleline"
+    const allClasses = classNames(props.status, bannerType, "banner")
 
     const icon = 
         props.status === "success" ? <FaCheckCircle /> : 
@@ -19,6 +19,8 @@ export default function Banner(props) {
         <TbFileNeutral />
 
     return (
+        <div>
+        <p>{`${props.status}-${bannerType}`}</p>
         <div className={allClasses}>
             {icon}
             <div className="banner-text">
@@ -26,5 +28,7 @@ export default function Banner(props) {
                 <p>{props.text}</p>
             </div>   
         </div>
+        </div>
+        
     )
 }
