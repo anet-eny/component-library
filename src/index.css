@@ -250,6 +250,50 @@ p {
     border-radius: 6px;
 }
 
+/* Testimonials */
+.testimonial {
+    display: flex;
+    align-items: center;
+    max-height: 350px;
+    max-width: 1200px;
+    margin-top: 50px;
+    padding: 0 2em;
+    color: white;
+    background-color: #2545B8;
+    overflow: visible;
+}
+
+.testimonial > img {
+    max-width: 384px;
+    max-height: 464px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+.testimonial-icon{
+    text-align: start;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.text, .name, .company {
+    color: white;
+}
+
+.text {
+    font-size: 1.4rem;
+    margin-bottom: 2em;
+}
+
+.name, .company {
+    font-size: 1rem;
+}
+
+
+
+
 
 
 

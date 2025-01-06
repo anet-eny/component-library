@@ -2,7 +2,9 @@ import React from "react"
 import Badge from "./components/Badge"
 import Banner from "./components/Banner"
 import Card from "./components/Card"
+import Testimonial from "./components/Testimonial"
 import { IoCloudUploadOutline } from "react-icons/io5"
+import image from "./images/Image.png"
 
 export default function App() {
     return (
@@ -61,6 +63,10 @@ export default function App() {
             <div className="cards-container">
                 <Card icon={<IoCloudUploadOutline />} title="Easy Deployment" text="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."/>
                 <Card hover={true} icon={<IoCloudUploadOutline />} title="Easy Deployment" text="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."/>
+            </div>
+            <h2>Testimonials</h2>
+            <div className="testimonials-container">
+                <Testimonial image={image} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit."} name={"May Andersons"} company={"Workcation, CTO"} />
             </div>
         </div>
         
