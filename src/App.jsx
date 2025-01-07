@@ -67,6 +67,7 @@ export default function App() {
             <h2>Testimonials</h2>
             <div className="testimonials-container">
                 <Testimonial image={image} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit."} name={"May Andersons"} company={"Workcation, CTO"} />
+                <Testimonial isMobile={true} image={image} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit."} name={"May Andersons"} company={"Workcation, CTO"} />
             </div>
         </div>
         
