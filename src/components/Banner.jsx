@@ -10,7 +10,6 @@ import { TbFileNeutral } from "react-icons/tb"
 export default function Banner(props) {
     const bannerType = props.text ? "multiline" : "singleline"
     const allClasses = classNames(props.status, bannerType, "banner")
-
     const icon = 
         props.status === "success" ? <FaCheckCircle /> : 
         props.status === "warning" ? <FaExclamationTriangle /> : 
@@ -20,14 +19,14 @@ export default function Banner(props) {
 
     return (
         <div>
-        <p>{`${props.status}-${bannerType}`}</p>
-        <div className={allClasses}>
-            {icon}
-            <div className="banner-text">
-                <p><strong>{props.title}</strong></p>
-                <p>{props.text}</p>
-            </div>   
-        </div>
+            <p>{`${props.status}-${bannerType}`}</p>
+            <div className={allClasses}>
+                {icon}
+                <div className="banner-text">
+                    <p><strong>{props.title}</strong></p>
+                    <p>{props.text}</p>
+                </div>   
+            </div>
         </div>
         
     )

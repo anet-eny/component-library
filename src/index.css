@@ -271,6 +271,11 @@ p {
     border-radius: 12px;
 }
 
+.desktop-label {
+    margin-bottom: 7em;
+    text-align: center;
+}
+
 .testimonial-icon{
     text-align: start;
     font-size: 2rem;
@@ -297,16 +302,10 @@ p {
     width: 380px;
     height: 474px;
     padding: 2em;
-    margin: 12em auto;
+    margin: 6.6em auto;
     color: white;
     background-color: #2545B8;
 }
-
-/* .testimonial-mobile .testimonial-image-container {
-    width: 354px;
-    height: 206px;
-    
-} */
 
 
 .testimonial-mobile .testimonial-image {
@@ -318,6 +317,12 @@ p {
     object-fit: cover;
     object-position: 50% 15%;
 }
+
+.mobile-label {
+    margin-top: 8em;
+    text-align: center;
+}
+
 
 
 
