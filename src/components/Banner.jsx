@@ -6,7 +6,6 @@ import { FaCircleXmark } from "react-icons/fa6"
 import { FaInfoCircle } from "react-icons/fa"
 import { TbFileNeutral } from "react-icons/tb"
 
-
 export default function Banner(props) {
     const bannerType = props.text ? "multiline" : "singleline"
     const allClasses = classNames(props.status, bannerType, "banner")
